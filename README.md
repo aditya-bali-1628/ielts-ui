@@ -1,16 +1,32 @@
-# React + Vite
+# IELTS Essentials & Resources Section
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive React component showcasing **IELTS resources and essential information** with a modern Glassmorphism design, hover effects, and a bold red background wave. The layout adapts seamlessly to mobile, tablet, and desktop screens.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Responsive Design:** Grid adjusts from 1 → 2 → 4 columns depending on screen size.
+- **Glassmorphism Cards:** Semi-transparent cards with blurred background and lifted hover effect.
+- **Red Accent Shape:** Angled red accent on each card, with subtle hover animation.
+- **Background Wave:** Large red gradient wave for a bold visual header.
+- **Hover Animations:** Cards scale and lift smoothly on hover.
+- **Font:** Inter font used throughout the component.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*(Add screenshots here if you have them)*
+
+---
+
+## Installation
+
+1. Make sure you have Node.js installed.
+2. Create a React app or integrate this component into your existing project:
+
+```bash
+npx create-react-app ielts-resources
+cd ielts-resources
+npm install
